@@ -42,7 +42,7 @@ int main(int argc, const char* argv[])
         std::cout << "Failed to create" << outFile << "properly" << std::endl;
     }
     else {
-        std::cout << outFile << "was created" << std::endl;
+        std::cout << outFile << " was created" << std::endl;
     }
     json.Close();
 

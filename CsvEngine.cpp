@@ -18,6 +18,8 @@ bool CsvEngine::Convert(std::string csvFile, Convertable &output)
         if (line.size() > 0)
             output.WriteLine(line);
     };
+
+    return true;
 }
 
 //

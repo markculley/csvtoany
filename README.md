@@ -1,6 +1,9 @@
 # csvtoany
 Reads a csv file and exports it as a JSON. 
 
+## Repo
+Didn't get a proper .gitignore in place before committing.
+
 ## Setup
 csvtoany depends on two externals libraries:
 
@@ -19,10 +22,10 @@ So your folder structure should look like...
 ~/argparse
 ~/json
 
-# Build
+## Build
 The project was built with CMake. I used CLion. CLion is pretty good. Not bad anyway.
 
-# Extensibility
+## Extensibility
 The design is simple.  Given a csv file as an input, convert it to a json file. Convertable.h declares an abstract class with 
 three functions:
 

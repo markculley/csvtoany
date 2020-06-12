@@ -6,28 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../../argparse/argparse.hpp
-unordered_map
--
-map
--
-string
--
-vector
--
-typeinfo
--
-stdexcept
--
-sstream
--
-iostream
--
-cassert
--
-algorithm
--
-
 ../../json/include/nlohmann/adl_serializer.hpp
 utility
 -
@@ -634,28 +612,6 @@ stdint.h
 
 ../../json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
 
-/home/dev/dev/argparse/argparse.hpp
-unordered_map
--
-map
--
-string
--
-vector
--
-typeinfo
--
-stdexcept
--
-sstream
--
-iostream
--
-cassert
--
-algorithm
--
-
 /home/dev/dev/csvtoany/Convertable.h
 vector
 -
@@ -669,6 +625,8 @@ string
 -
 vector
 -
+iostream
+-
 ConvertableJson.h
 /home/dev/dev/csvtoany/ConvertableJson.h
 nlohmann/json.hpp
@@ -683,24 +641,4 @@ Convertable.h
 /home/dev/dev/csvtoany/Convertable.h
 nlohmann/json.hpp
 /home/dev/dev/csvtoany/nlohmann/json.hpp
-
-/home/dev/dev/csvtoany/CsvEngine.h
-string
--
-Convertable.h
-/home/dev/dev/csvtoany/Convertable.h
-
-/home/dev/dev/csvtoany/main.cpp
-iostream
--
-stdexcept
--
-argparse.hpp
-/home/dev/dev/csvtoany/argparse.hpp
-../argparse/argparse.hpp
-/home/dev/dev/argparse/argparse.hpp
-CsvEngine.h
-/home/dev/dev/csvtoany/CsvEngine.h
-ConvertableJson.h
-/home/dev/dev/csvtoany/ConvertableJson.h
 

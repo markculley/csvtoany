@@ -17,13 +17,7 @@ bool ConvertableJson::Initialize(std::string outFile)  {
     if (!_jsonDocument.empty()){
         _jsonDocument.clear();
     }
-
-    try {
-        _outFile.open(outFile);
-    }
-    catch (std::exception ex) {
-        std::cout << ex..message();
-    }
+    _outFile.open(outFile);
     return _outFile.good();
 }
 

@@ -18,7 +18,7 @@ public:
 
     // It is expected that any open streams will not
     // be closed until this is called
-    void Close();
+    void virtual Close() = 0;
 
     // Write a line of CSV in whatever format you choose
     bool virtual WriteLine(const std::vector<std::string> lineOfCsv) = 0;

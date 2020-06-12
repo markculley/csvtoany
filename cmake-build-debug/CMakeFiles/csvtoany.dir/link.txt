@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/csvtoany.dir/main.cpp.o CMakeFiles/csvtoany.dir/CsvEngine.cpp.o CMakeFiles/csvtoany.dir/ConvertableJson.cpp.o  -o csvtoany 
